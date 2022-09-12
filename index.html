@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Salve seu texto aqui</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <textarea spellcheck="false" placeholder="Seu texto aqui" required></textarea>
+      <div class="file-options">
+        <div class="option file-name">
+          <label>Nome do arquivo</label>
+          <input type="text" spellcheck="false" placeholder="Arquivo nome">
+        </div>
+        <div class="option save-as">
+          <label>Salvar/Formato</label>
+          <div class="select-menu">
+            <select>
+              <option value="text/plain">Text (.txt)</option>
+              <option value="text/javascript">JS (.js)</option>
+              <option value="text/html">HTML (.html)</option>
+              <option value="image/svg+xml">SVG (.svg)</option>
+              <option value="application/msword">Word (.doc)</option>
+              <option value="application/vnd.ms-powerpoint">Powerpoint (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save-btn" type="button">Gerar arquivo</button>
+    </div>
+    <div class="footer">
+      <p>By theRamos<span>Developer</span></p>
+    </div>
+  </body>
+</html>
